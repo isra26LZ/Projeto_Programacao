@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonia Musical</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+ <!-- Projeto site para escola de música Harmonia Musical-->
+
+<body>
+    <!-- Header com Nome e Logo da escola -->
+    <header>
+        <div class="h1">
+            <h1> <img src="imagens/logo2.png" alt="Logo">  Harmonia Musical</h1>
+        </div>
+    </header>
+
+    <!-- Menu com links Sobre, Cursos e Contato  -->
+    <nav class="menu">
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Imagem representa a empresa-->
+    <div class="container">
+        <img src="imagens/Conclusão-Cursos-de-Instrumentos-Musicais.jpg" title="música" alt="instrumentos musicais">
+    </div>
+
+    <!-- Seção contendo informações sobre a empresa -->
+    <main>
+        <section id="sobre">
+            <div class="descricao">
+                <h2>Sobre a Harmonia Musical</h2>
+                <p>A Harmonia Musical nasceu com a missão de levar o ensino da música a todos que desejam aprender violão, teclado e canto de forma leve, divertida e eficiente. Nosso time de professores experientes está pronto para te acompanhar em cada nota dessa jornada.</p>
+                <p>Oferecemos cursos online e presenciais, com metodologia própria, que respeita o ritmo e estilo de cada aluno. Aqui, a música é para todos!</p>
+            </div>
+        </section>
+
+        <section id="cursos">
+            <h2>Nossos Cursos</h2>
+            <ul>
+                <li>🎸 Curso de Violão para Iniciantes e Intermediários</li>
+                <li>🎹 Curso de Teclado com Teoria Musical</li>
+                <li>🎤 Aulas de Canto para todas as idades</li>
+                <li>📅 Aulas particulares e em grupo</li>
+            </ul>
+        </section>
+
+         <!--Testemunho usuário-->
+        <section>
+            <aside class="testemunho">
+                <div class="cliente-foto">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="foto do aluno">
+                </div>
+                <div class="conteudo">
+                    <div class="avaliacao">★★★★★</div>
+                    <div class="texto">"Nunca imaginei aprender violão tão rápido. Os professores são muito didáticos e atenciosos!"</div>
+                    <div class="autor">– Carlos, aluno de violão</div>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <!-- Formulário para contato -->
+    <div class="container_2">
+        <div id="contato"></div>
+
+        <div class="form-box"> 
+            <h2>Fale Conosco</h2>
+            <form action="/submit-form" method="POST">
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
+
+                <input type="submit" value="Enviar Mensagem">
+            </form>
+        </div>
+    </div>
+
+    <!-- Rodapé: Endereço, contato e redes sociais-->
+    <footer> 
+        <div class="social-icons">
+            <a href="https://www.facebook.com/HarmoniaMusical" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/harmoniamusical" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+            </a>
+            <a href="https://wa.me/119999999" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+            </a>
+        </div>
+        <div>
+            <p>2025 - Todos os direitos reservados</p>
+            <p>Rua da Harmonia, 123 - Centro, São Paulo - SP</p>
+            <p>(11) 99999-9999</p>
+            <p>Harmonia Musical &copy;</p>
+        </div>  
+    </footer>
+</body>
+</html>
